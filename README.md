@@ -24,4 +24,34 @@ Hasnain-2025-QNM-Magnetic-Kiselev/          (main folder)
 
 
 
+## About
+This repository contains the numerical codes used in the paper:
+**"Scalar quasinormal modes of a magnetically charged Kiselev black hole"** by Ali Hasnain (2026).
+
+We compute scalar quasinormal mode frequencies using:
+- Sixth-order WKB approximation
+- Time-domain integration with Prony extraction
+
+##  Quick Start
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/username/Hasnain-2025-QNM-Magnetic-Kiselev.git
+cd Hasnain-2025-QNM-Magnetic-Kiselev
+
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+
+python code/figure1_f_of_r.py     # Metric function
+python code/figure2_V_eff.py      # Effective potential
+python code/figure3_rstar.py      # Tortoise coordinate
+python code/figure4_waveform.py   # Time-domain waveform
+
+python code/wkb_qnm.py --Q 0.5 --c 0.05 --omega -0.6667
+
+
+
+
+
 
