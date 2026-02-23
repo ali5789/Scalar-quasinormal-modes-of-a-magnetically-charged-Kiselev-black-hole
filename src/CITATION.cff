@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying paper."
+authors:
+  - family-names: "Hasnain"
+    given-names: "Ali"
+title: "Scalar quasinormal modes of a magnetically charged Kiselev black hole"
+date-released: 2026-02-23
+url: "https://github.com/ali-hasnain-physics/Hasnain-2025-QNM-Magnetic-Kiselev"
+repository-code: "https://github.com/ali-hasnain-physics/Hasnain-2025-QNM-Magnetic-Kiselev"
+license: "MIT"
